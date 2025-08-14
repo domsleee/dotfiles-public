@@ -14,7 +14,7 @@ git clone https://github.com/domsleee/dotfiles-public.git
 
 2. Install dependencies
 ```shell
-scoop install nu starship zoxide fzf fd bat
+scoop install nu starship zoxide fzf fd bat lsd
 ```
 
 3. In `code $nu.config-path`
