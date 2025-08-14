@@ -1,0 +1,35 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+add_newline = false
+# format = """$git_branch$git_status$directory$character"""
+# right_format = """$all"""
+
+[bun]
+disabled = true
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style) '
+
+[cmd_duration]
+min_time = 100
+show_milliseconds = true
+format = '[$duration]($style)'
+
+[line_break]
+# disabled = true
+
+[git_status]
+untracked = ""
+ignore_submodules = true
+# async_paths = ["C:/git/wtg/CargoWise/Dev", "C:/git/wtg/DevTools/DevTools"]
+format = '([\[$conflicted$deleted$renamed$modified$staged$untracked$ahead_behind\]]($style) )'
+use_git_executable = true
+
+[directory]
+truncation_length = 5
+
+[ruby]
+disabled = true
+
+[pulumi]
+disabled = true

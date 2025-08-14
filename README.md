@@ -1,0 +1,1 @@
+Test on nu version: `0.106.1`.
