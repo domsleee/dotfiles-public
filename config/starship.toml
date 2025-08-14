@@ -21,7 +21,6 @@ format = '[$duration]($style)'
 [git_status]
 untracked = ""
 ignore_submodules = true
-# async_paths = ["C:/git/wtg/CargoWise/Dev", "C:/git/wtg/DevTools/DevTools"]
 format = '([\[$conflicted$deleted$renamed$modified$staged$untracked$ahead_behind\]]($style) )'
 use_git_executable = true
 
